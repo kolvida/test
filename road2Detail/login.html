@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  
+<div id="main">
+  
+  <form>
+    <div class="imgcontainer"> 
+      <img src="images/avatar.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label><b>Username</b></label>
+      <input type="text" id="username" placeholder="Username" required>
+
+      <label><b>Password</b></label>
+      <input type="password" id="password" placeholder="Password" required>
+
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+        
+      <button id="button" type="button" onClick="clicked()">Login</button>
+      <button id="button2" type="button" onClick="clickedBack()">Get Back</button>
+
+    </div>  
+  </form>
+ 
+</div>
+
+</body>
+<script type="text/JavaScript" src="js/main.js"></script>
+</html>
